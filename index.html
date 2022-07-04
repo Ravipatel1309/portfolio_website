@@ -36,6 +36,9 @@
                     <li><a href="#project">
                             <ion-icon name="list"></ion-icon>
                         </a></li>
+                    <li><a href="#skills">
+                            <ion-icon name="construct"></ion-icon>
+                        </a></li>
                     <li><a href="#contact">
                             <ion-icon name="call"></ion-icon>
                         </a></li>
@@ -44,7 +47,7 @@
 
             <div class="text-box">
                 <div class="main-text">
-                    <h3>Hey I am</h3>
+                    <h3>Hello I'm</h3>
                     <h1>Ravi Patel</h1>
                     <h4>Web Developer and Competitive Programmer.</h4>
                 </div>
@@ -54,12 +57,16 @@
             </div>
         </section>
 
+        <a href="#home" class="scrollToTopBtn">
+            <ion-icon name="arrow-up"></ion-icon>
+        </a>
+
         <section class="about" id="about">
             <div class="text-box">
                 <div class="illustration img2"><img src="assets/self.jpeg" alt="AboutUs"></div>
 
                 <div class="intro">
-                    <h2>About Us</h2>
+                    <h2>About Me</h2>
                     <p class="para">
                         I love to explore new technologies and leverage them to solve real-life problems. <br> I mainly
                         work with C, C++, HTML, CSS, JavaScript and ReactJS.
@@ -73,8 +80,9 @@
                     </div>
                     <!-- <input type="button" value="Download CV" class="btn"> -->
                     <div class="myimg">
-                    <a href="assets/Resume.pdf" download="Resume.pdf" class="btn" style="text-decoration: none;">Download CV</a>
-                </div>
+                        <a href="assets/Resume.pdf" download="Resume.pdf" class="btn"
+                            style="text-decoration: none;">Download CV</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -82,26 +90,27 @@
         <section class="project" id="project">
             <h2>Projects</h2>
             <div class="container">
-                <div class="card">
+                <div class="card" onclick='window.location="#home"'>
                     <div class="imgicon">
                         <ion-icon name="person"></ion-icon>
                     </div>
                     <a href="index.html">Portfolio Website</a>
-                        <p>HTML-CSS-JS</p>
+                    <p>HTML-CSS-JS</p>
                 </div>
-                <div class="card">
+                <div class="card" onclick='window.location="https://ravipatel1309.github.io/payment_gateway/"'>
                     <div class="imgicon">
                         <ion-icon name="logo-usd"></ion-icon>
                     </div>
-                    <a href="https://ravipatel1309.github.io/payment_gateway/" target="blank">Payment Gateway Website</a>
-                        <p>HTML-CSS-JS</p>
+                    <a href="https://ravipatel1309.github.io/payment_gateway/" target="blank">Payment Gateway
+                        Website</a>
+                    <p>HTML-CSS-JS</p>
                 </div>
-                <div class="card">
+                <div class="card" onclick='window.location="https://ravipatel1309.github.io/CPUScheduler/"'>
                     <div class="imgicon">
                         <ion-icon name="cube"></ion-icon>
                     </div>
                     <a href="https://ravipatel1309.github.io/CPUScheduler/" target="blank">Simulator WebApp</a>
-                        <p>HTML-CSS-JS-JQuery</p>
+                    <p>HTML-CSS-JS-JQuery</p>
                 </div>
             </div>
         </section>
@@ -110,24 +119,24 @@
             <h2>Skill Set</h2>
             <div class="container">
                 <div class="first">
-                <h4>Programmig Languages</h4>
-                <div class="card">
-                    <img src="https://img.icons8.com/color/60/000000/c-programming.png" />
-                    <img src="https://img.icons8.com/color/60/000000/c-plus-plus-logo.png" />
-                    <img src="https://img.icons8.com/color/60/000000/java-coffee-cup-logo--v2.png" />
-                    <img src="https://img.icons8.com/color/60/000000/python--v2.png" />
-                    <img src="https://img.icons8.com/color/60/000000/javascript--v2.png" />
+                    <h4>Programmig Languages</h4>
+                    <div class="card">
+                        <img src="https://img.icons8.com/color/60/000000/c-programming.png" />
+                        <img src="https://img.icons8.com/color/60/000000/c-plus-plus-logo.png" />
+                        <img src="https://img.icons8.com/color/60/000000/java-coffee-cup-logo--v2.png" />
+                        <img src="https://img.icons8.com/color/60/000000/python--v2.png" />
+                        <img src="https://img.icons8.com/color/60/000000/javascript--v2.png" />
+                    </div>
                 </div>
-            </div>
                 <div class="second">
-                <h4>Other Languages</h4>
-                <div class="card">
-                    <img src="https://img.icons8.com/color/60/000000/html-5--v1.png" />
-                    <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                    <img src="https://img.icons8.com/plasticine/60/000000/react.png" />
-                    <img src="https://img.icons8.com/fluency/60/000000/node-js.png" />
+                    <h4>Other Languages</h4>
+                    <div class="card">
+                        <img src="https://img.icons8.com/color/60/000000/html-5--v1.png" />
+                        <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                        <img src="https://img.icons8.com/plasticine/60/000000/react.png" />
+                        <img src="https://img.icons8.com/fluency/60/000000/node-js.png" />
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -139,21 +148,21 @@
                         <ion-icon name="call"></ion-icon>
                     </div>
                     <h4 style="color: #FFEB00;">Contact Number</h4>
-                        <p>+91 8511333098</p>
+                    <p>+91 8511333098</p>
                 </div>
                 <div class="card">
                     <div class="imgicon">
                         <ion-icon name="mail"></ion-icon>
                     </div>
                     <h4 style="color: #FFEB00;">Email Address</h4>
-                        <p>Ravivpatel1309@gmail.com</p>
+                    <p>Ravivpatel1309@gmail.com</p>
                 </div>
-                <div class="card">
+                <div class="card" onclick='window.location="https://www.linkedin.com/in/ravi-patel-030206233"'>
                     <div class="imgicon">
                         <ion-icon name="logo-linkedin"></ion-icon>
                     </div>
                     <a href="https://www.linkedin.com/in/ravi-patel-030206233">LinkedIn profile</a>
-                        <p>Ravi Patel</p>
+                    <p>Ravi Patel</p>
                 </div>
             </div>
         </section>
@@ -161,7 +170,7 @@
         <footer>
             <div class="icons">
                 <ul>
-                    <li><a href="https://www.facebook.com/">
+                    <li><a href="https://www.facebook.com/people/Ravi-Patel/100056791843476/">
                             <ion-icon name="logo-facebook"></ion-icon>
                         </a></li>
                     <li><a href="https://github.com/Ravipatel1309/">
